@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    display: block;
+    background-color: gray;
+    height: 55px;
+    margin-top: 0;
+}
+
+.logo {
+    margin: 12px;
+    border-radius: 50%;
+}
+
+.creeper {
+    height: 333px;
+    border-radius: 50%;
+}
+
+#content {
+    width: 55%;
+    margin: 0 auto;
+  }
+
+.kecil {
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+    height: 125px;
+}
+
+.section1 {
+    height: 255px;
+    background-color: gray;
+    margin-bottom: 115px;
+}
+
+.grey {
+    font-size: medium;
+    color: gray;
+}
+
+.section2 {
+    display: inline;
+    font-size: xx-large;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.card {
+    width: 30%;
+    border: 1px solid #ddd;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card div {
+    padding: 20px;
+  }
+  
+  /* Optional */
+  .card-body h3 {
+    margin-top: 0;
+  }
+  /* Optional */
+  
+  hr {
+    margin: 65px;
+  }
+  
+  footer {
+    padding: 30px;
+  }
+  
+  footer a {
+    margin: 0 20px;
+  }
